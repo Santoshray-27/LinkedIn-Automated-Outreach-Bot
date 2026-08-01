@@ -1,4 +1,4 @@
-# LinkedIn Automated Outreach Bot
+# LinkedIn Automated Outreach Bot Project 
 
 An automated Node.js tool designed to search for job opportunities on LinkedIn, extract recruiter email addresses from recent posts, and send automated applications with a personalized cover letter and resume.
 
@@ -12,7 +12,7 @@ An automated Node.js tool designed to search for job opportunities on LinkedIn, 
 - **Human-Like Behavior**: Includes random delays and visual pauses to mimic human interaction.
 
 ## 🛠️ Prerequisites
-- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Node.js](https://nodejs.org/) (v14 or any higher version)
 - A Gmail account with an **App Password** enabled.
 - A LinkedIn account.
 
@@ -54,4 +54,4 @@ node index.js
 - **Test Mode**: To test without sending real emails, comment out the `await transporter.sendMail(mailOptions);` line in `index.js`.
 
 ## 📄 License
-This project is for educational purposes only.
+This project is for educational purposes only and for practice.
